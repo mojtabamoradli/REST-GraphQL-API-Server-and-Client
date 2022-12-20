@@ -10,12 +10,9 @@ An Application Programming Interface (API) is a way for two or more computer pro
 <sup>1</sup> Method tells the server what to do <sup>2</sup> Status tells client what happened <sup>3</sup> Additional information to request/response <sup>4</sup> Code Category: Informational (100-101), Successful (200-206), Redirection (300-305), Client Error (400-415), Server Error (500-505) <sup>5</sup> Contains request/response data
 
 
+## Fake REST API with `JSON Server`
 
-
-
-
-
-You can make a fake one using `JSON Server`:
+You can make one by running:
 
 🕹 npm install -g json-server
 
@@ -33,9 +30,14 @@ You can make a fake one using `JSON Server`:
 
 your data can be reached at http://localhost:3001/dataSetOne or http://localhost:3001/dataSetTwo
 
-REST APIs have a problem commonly known as over-fetching, as the name suggests, when you query something, it returns more than what you need; `GraphQL` which is a query language for APIs, is a way we can avoid this problem; it lets us query exactly what we want when we want.
+## Making REST API using express.js
+Well, I developed a simple one which you can find in node-next-restful folder.
 
-This repository includes a complete GraphQL server which I developed using node.js + codes to connect it to the frontend.
+## GraphQL
+
+REST APIs have a problem commonly known as over-fetching, as the name suggests, when you query something, it returns more than what you need; `GraphQL` which is a query language for APIs, is a way we can avoid this problem; it lets us query exactly what we want, when we want.
+
+node-next-graphql folder includes a complete GraphQL server which I developed using express.js.
 
 # How to use
 ```diff
