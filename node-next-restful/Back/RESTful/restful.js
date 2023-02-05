@@ -21,6 +21,8 @@ restfulRouter.get("/data/:id", (request, response) => {
   response.send(askedData);
 });
 
+// For getting data you can also use POST request when you need some data to be sent in body in return. Here I did not implement this way.
+
 restfulRouter.post("/data", (request, response) => {
   const askedData = {
     id: data.length + 1,
