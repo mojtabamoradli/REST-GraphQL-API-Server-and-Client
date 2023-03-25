@@ -37,7 +37,7 @@ Well, I developed a simple one which you can find in node-next-restful folder.
 
 REST APIs have a problem commonly known as over-fetching, as the name suggests, when you query something, it returns more than what you need; `GraphQL` which is a query language for APIs, is a way we can avoid this problem; it lets us query exactly what we want, when we want.
 
-Mainly there are two ways to write a GraphQL server, meaning writing a schema, which defines all the types and fields, and the resolvers, which are the collection of functions that are called to return the data for those types: Code-first and schema-First methods. I’m not going to explain which is better for what work or talking about them, there are plenty of articles explaining each better than I ever could. Here, I used both methods to write a simple server. For schema-first method, I managed to connect my server to the MongoDB database.
+Mainly there are two ways to write a GraphQL server, meaning writing a schema, which defines all the types and fields, and the resolvers, which are the collection of functions that are called to return the data for those types: Code-first and schema-First methods. I’m not going to explain which is better for what work or talking about them, there are plenty of articles explaining each better than I ever could. Here, I used both methods to write a simple server. For schema-first method, I managed to connect my server to the MongoDB database and i implement an authentication system.
 
 # How to use
 ```diff
